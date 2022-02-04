@@ -5,7 +5,6 @@ host='127.0.0.1'
 db_user='root'
 db_pass='123456'
 
-#mysqldump  -h aws-db-sg-staging-instance-1.cm6cgbsyvhdl.ap-southeast-1.rds.amazonaws.com $1 -u $db_user -p$db_pass |gzip > $1_${t_time}.sql.gz
 
 dump_all_data(){
 echo "导出全部数据和结构"
